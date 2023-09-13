@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: olive;
+}
+
+.flex-item{
+    margin: 10px;
+    padding: 10px;
+    background: lightblue;
+}
+
+@media screen and (min-width: 400px){
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        }
+}
