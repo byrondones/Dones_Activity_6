@@ -14,11 +14,17 @@
     background: lightblue;
 }
 
-@media screen and (min-width: 400px){
+@media screen and not (min-width: 400px){
     .flex-container{
         flex-direction: column;
         justify-content: center;
 
         align-items: flex-end;
+        }
+
+        .flex-item{
+            margin: 10px;
+            padding: 10px;
+            background: magenta;
         }
 }
