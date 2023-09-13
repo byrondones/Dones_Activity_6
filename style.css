@@ -4,6 +4,8 @@
     justify-content: space-between;
 
     background-color: olive;
+
+    align-items: center;
 }
 
 .flex-item{
@@ -16,5 +18,7 @@
     .flex-container{
         flex-direction: column;
         justify-content: center;
+
+        align-items: flex-end;
         }
 }
