@@ -16,15 +16,16 @@
 
 @media screen and not (min-width: 400px){
     .flex-container{
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
 
-        align-items: flex-end;
+        background-color: lightblue;
         }
 
         .flex-item{
-            margin: 10px;
-            padding: 10px;
+            margin: 20px;
+            padding: 20px;
             background: magenta;
         }
 }
